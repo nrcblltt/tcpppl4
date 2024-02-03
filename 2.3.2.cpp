@@ -15,5 +15,7 @@ int main() {
   v1[2] = 18;
   v1[3] = 12;
   std::cout << v1[2] + v1[3] << std::endl;
+  v1[2] = 8;
+  std::cout << v1[2] + v1[3] << std::endl;
   return 0;
 }
